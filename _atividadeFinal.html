@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR" contenteditable="false">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Atividade final de Padrões Web">
+    <meta name="author" content="A. Gabriel R. de Carvalho: 20201198060014">
+    <title>Autoria Web | Atividade</title>
+    <link href="prova-style.css" type="text/css" rel="stylesheet">
+    <style>
+        ._Pergunta {
+            font-size: 25px;
+        }
+        fieldset {
+            justify-content: justify;
+        }
+        .btn_submit {
+            font-size: 20px;
+            font-family: roboto;
+            font-weight: bold;
+            color: blue;
+        }
+    </style>
+    </head>
+    <body>
+        <h1 class="h1atividade">BEM VINDO Á ATIVIDADE SOBRE HTML E CSS</h1>
+        <img src="https://media.giphy.com/media/tymAL1JjdqfPxq59cd/giphy.gif" alt="" width="150px">
+        <h2>RESPONDA AS PRÓXIMAS PERGUNTAS</h2>
+        <form action="resposta.php" method="GET" enctype="multipart/form-data">
+            <fieldset>
+                <p class="_Pergunta">COMO EU INSIRO UM PARÁGRAFO NA MINHA PÁGINA?</p>
+                <select name="Primeira Pergunta" id="pergunta">
+                    <option value="tagA">&lt;a&gt;</option>
+                    <option value="tagB">&lt;b&gt;</option>
+                    <option value="tagP">&lt;p&gt;</option>
+                    <option value="tagTITLE">&lt;title&gt;</option>
+                </select>
+                <br>
+                <p class="_Pergunta">COMO EU DEFINO O TÍTULO DA MINHA PÁGINA?</p>
+                <select name="Primeira Pergunta" id="pergunta">
+                    <option value="tagA">&lt;a&gt;</option>
+                    <option value="tagB">&lt;b&gt;</option>
+                    <option value="tagP">&lt;p&gt;</option>
+                    <option value="tagTITLE">&lt;title&gt;</option>
+                </select>
+                <p class="_Pergunta">QUAL A DIFERENÇA ENTRE O HTML E O CSS?</p>
+                <textarea required>Escreva aqui...</textarea>
+                <br>
+                <p class="_Pergunta">SELECIONE A SUA LINGUAGEM FAVORITA!</p>
+                <input type="radio" id="html" name="linguagem_fav" value="HTML" checked>
+                <label for="html">HTML</label>
+                <input type="radio" id="html" name="linguagem_fav" value="CSS" checked>
+                <label for="CSS">CSS</label>
+                <input type="radio" id="html" name="linguagem_fav" value="JAVASCRIPT" checked>
+                <label for="javascript">JavaScript</label>
+            </fieldset><br>
+            <input type="submit" class="btn_submit" id="btn-submit" value="ENVIAR DADOS">
+        </form>
+    </body>
+    <br>
+    <footer class="footer" id="footerHTML" style="font-size: 20px;">
+        SISTEMA DESENVOLVIDO POR <b>GABRIEL CARVALHO</b>,<br>COM AUXÍLIO DO PROFESSOR BRUNO GOMES<br>DURANTE AS AULAS DE AUTORIA WEB<br>
+        <a href="https://fb.com/xgabrielcarvalho" class="linkFooter">CLIQUE AQUI E ME CONHEÇA</a>
+    </footer>
+</html>
